@@ -11,5 +11,10 @@ pipeline {
                 echo "Testing the Dev Branch"
             }
         }
+        stage('Deploy'){
+            steps{
+                 echo "deploying"
+         }
+      }
     }
 }
